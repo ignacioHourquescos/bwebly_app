@@ -1,18 +1,18 @@
-import styled from 'styled-components';
+import tw from 'tailwind-styled-components';
 
 export const Styled = {
-  Inner: styled.div`
-    height: 10vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    position: absolute;
-    background-color: white;
-    z-index: 10;
-    padding: 0 20px;
+  Inner: tw.div`
+  h-1/8
+    w-screen
+    flex
+    flex-col
+    items-center
+    justify-center
+    justify-items-center
+    absolute
+    bg-white
+    z-10
+    px-20
   `,
-  Logo: styled.img``,
+  Logo: tw.img``,
 };
